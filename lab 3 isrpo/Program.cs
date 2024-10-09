@@ -18,6 +18,16 @@
             }
         }
 
+        // Вывод матрицы по столбцам
+        Console.WriteLine("Матрица по столбцам:");
+        for (int j = 0; j < m; j++)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write(matrix[i, j] + " ");
+            }
+            Console.WriteLine();
+        }
 
     }
 }
