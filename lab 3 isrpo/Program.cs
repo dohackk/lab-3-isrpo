@@ -29,5 +29,7 @@
             Console.WriteLine();
         }
 
+        Console.WriteLine("вфвыфвфы");
+
     }
 }
