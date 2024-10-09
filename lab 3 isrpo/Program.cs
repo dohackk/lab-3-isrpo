@@ -8,5 +8,16 @@
         Console.Write("Введите количество строк (m): ");
         int m = Convert.ToInt32(Console.ReadLine());
 
+        // Ввод матрицы построчно
+        Console.WriteLine("Введите элементы матрицы по столбцам:");
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < m; j++)
+            {
+                matrix[i, j] = double.Parse(Console.ReadLine());
+            }
+        }
+
+
     }
 }
